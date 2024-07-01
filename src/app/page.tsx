@@ -9,6 +9,7 @@ export default function Home() {
         className="object-cover"
         src="/assets/img/bg/mwanzo-place.jpg"
         fill
+        priority
         alt="Mwanzo Place"
       />
       <div className="absolute w-full h-full bg-gradient-to-b from-slate-950/[.5] to-slate-900/[.1] flex flex-col items-center justify-center gap-8">
