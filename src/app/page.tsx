@@ -7,7 +7,7 @@ export default function Home() {
     <main className="flex h-screen flex-col items-center justify-center">
       <Image
         className="object-cover"
-        src="/assets/img/bg/mwanzo-place.jpg"
+        src="/assets/img/bg/mwanzo-place.webp"
         fill
         priority
         alt="Mwanzo Place"
