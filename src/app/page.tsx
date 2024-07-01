@@ -16,6 +16,11 @@ export default function Home() {
         alt="Mwanzo Place"
       />
       <div className="absolute w-full h-full bg-gradient-to-b from-slate-950/[.5] to-slate-900/[.1] flex flex-col items-center justify-center gap-8">
+        <div className="text-center text-slate-50 flex flex-col items-center">
+          <p className="text-slate-50 text-xl md:text-4xl font-light italic">
+            Let's help you find your perfect home
+          </p>
+        </div>
         <Image
           className="rounded-lg"
           src="/assets/img/logos/logo.jpg"
@@ -24,12 +29,6 @@ export default function Home() {
           priority
           alt="Mwanzo Place"
         />
-        <div className="text-center text-slate-50 flex flex-col items-center">
-          <IoHomeOutline size={40} />
-          <p className="text-slate-50 text-xl md:text-4xl font-medium">
-            Find your perfect home
-          </p>
-        </div>
 
         <div className="flex flex-col md:flex-row items-center gap-4">
           <Link
