@@ -24,6 +24,9 @@ export default function Home() {
           priority
           alt="Mwanzo Place"
         />
+        <p className="text-slate-50 text-4xl font-medium">
+          Find your perfect home
+        </p>
         <Link
           href="mailto:hello@mwanzo.co.ke"
           className="transition-all duration-300 text-slate-50 font-normal text-base flex flex-row items-center gap-2 border border-slate-50 px-4 py-2 rounded-full hover:bg-slate-50 hover:text-slate-800"

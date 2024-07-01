@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 const meta: any = {
   title: "Mwanzo Place | Tigoni Limuru Road",
-  description: "3228 Tigoni - Limuru Road - hello@mwanzo.co.ke",
+  default: "Mwanzo Place - Find your perfect home",
   type: "website",
   card: "summary_large_image",
   site: "@mwanzo",
@@ -21,14 +21,14 @@ export const metadata: Metadata = {
   },
   title: {
     template: "%s - Mwanzo Place",
-    default: "Mwanzo Place Tigoni - Limuru Road",
+    default: "Mwanzo Place - Find your perfect home",
   },
   description: meta.description,
 
   openGraph: {
     title: {
       template: "%s - Mwanzo Place",
-      default: "Mwanzo Place Tigoni - Limuru Road",
+      default: "Mwanzo Place - Find your perfect home",
     },
     description: meta.description,
     type: meta.type,
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
   twitter: {
     title: {
       template: "%s - Mwanzo Place",
-      default: "Mwanzo Place Tigoni - Limuru Road",
+      default: "Mwanzo Place - Find your perfect home",
     },
     description: meta.description,
     card: meta.card,
