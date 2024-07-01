@@ -18,6 +18,7 @@ export default function Home() {
           src="/assets/img/logos/logo.jpg"
           width={200}
           height={200}
+          priority
           alt="Mwanzo Place"
         />
         <Link
