@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { IoCall, IoMail } from "react-icons/io5";
+import { IoCall, IoHomeOutline, IoMail } from "react-icons/io5";
 
 export const revalidate = 86400;
 
@@ -24,9 +24,13 @@ export default function Home() {
           priority
           alt="Mwanzo Place"
         />
-        <p className="text-slate-50 text-xl md:text-4xl font-medium">
-          Find your perfect home
-        </p>
+        <div className="text-center text-slate-50 flex flex-col items-center">
+          <IoHomeOutline size={40} />
+          <p className="text-slate-50 text-xl md:text-4xl font-medium">
+            Find your perfect home
+          </p>
+        </div>
+
         <div className="flex flex-col md:flex-row items-center gap-4">
           <Link
             href="mailto:hello@mwanzo.co.ke"
