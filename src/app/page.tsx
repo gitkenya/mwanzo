@@ -2,6 +2,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { IoMail } from "react-icons/io5";
 
+export const revalidate = 86400;
+
 export default function Home() {
   return (
     <main className="flex h-screen flex-col items-center justify-center">
