@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { IoMail } from "react-icons/io5";
+import { IoCall, IoMail } from "react-icons/io5";
 
 export const revalidate = 86400;
 
@@ -24,16 +24,25 @@ export default function Home() {
           priority
           alt="Mwanzo Place"
         />
-        <p className="text-slate-50 text-4xl font-medium">
+        <p className="text-slate-50 text-xl md:text-4xl font-medium">
           Find your perfect home
         </p>
-        <Link
-          href="mailto:hello@mwanzo.co.ke"
-          className="transition-all duration-300 text-slate-50 font-normal text-base flex flex-row items-center gap-2 border border-slate-50 px-4 py-2 rounded-full hover:bg-slate-50 hover:text-slate-800"
-        >
-          <IoMail size={28} />
-          hello@mwanzo.co.ke
-        </Link>
+        <div className="flex flex-col md:flex-row items-center gap-4">
+          <Link
+            href="mailto:hello@mwanzo.co.ke"
+            className="transition-all duration-300 text-slate-50 font-normal text-base flex flex-row items-center gap-2 border border-slate-50 px-4 py-2 rounded hover:bg-slate-50 hover:text-slate-800"
+          >
+            <IoMail size={28} />
+            hello@mwanzo.co.ke
+          </Link>
+          <Link
+            href="tel:+254752993333"
+            className="transition-all duration-300 text-slate-50 font-normal text-base flex flex-row items-center gap-2 border border-slate-50 px-4 py-2 rounded hover:bg-slate-50 hover:text-slate-800"
+          >
+            <IoCall size={28} />
+            0752 993 333
+          </Link>
+        </div>
       </div>
     </main>
   );
