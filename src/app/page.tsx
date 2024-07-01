@@ -6,12 +6,13 @@ export const revalidate = 86400;
 
 export default function Home() {
   return (
-    <main className="flex h-screen flex-col items-center justify-center">
+    <main className="flex h-screen flex-col items-center justify-center relative">
       <Image
         className="object-cover"
         src="/assets/img/bg/mwanzo-place.webp"
         fill
         priority
+        sizes="(max-width: 768px) 600px, (max-width: 1200px) 1200px, 1200px"
         alt="Mwanzo Place"
       />
       <div className="absolute w-full h-full bg-gradient-to-b from-slate-950/[.5] to-slate-900/[.1] flex flex-col items-center justify-center gap-8">
