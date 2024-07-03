@@ -17,7 +17,7 @@ export default function Home() {
       />
       <div className="absolute w-full h-full bg-gradient-to-b from-slate-950/[.5] to-slate-900/[.1] flex flex-col items-center justify-center gap-8">
         <div className="text-center text-slate-50 flex flex-col items-center">
-          <p className="text-slate-50 text-lg md:text-2xl font-light italic">
+          <p className="text-slate-50 text-base md:text-xl font-light italic">
             Discover your dream home with us
           </p>
         </div>
