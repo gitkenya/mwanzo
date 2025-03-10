@@ -32,11 +32,11 @@ export default function Home() {
 
         <div className="flex flex-col md:flex-row items-center gap-4">
           <Link
-            href="mailto:hello@mwanzo.co.ke"
+            href="mailto:hello@mwanzo.net"
             className="transition-all duration-300 text-slate-50 font-normal text-sm flex flex-row items-center gap-2 border border-slate-50 px-4 py-2 rounded hover:bg-slate-50 hover:text-slate-800"
           >
             <IoMail size={20} />
-            hello@mwanzo.co.ke
+            hello@mwanzo.net
           </Link>
           <Link
             href="tel:+254752993333"
